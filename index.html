@@ -67,14 +67,13 @@
     <article class='slide slide-title'>
       <div class="workshop_title">
         <h1>Introduction to JavaScript</h1>
-        <p style="font-size: 1em; color: #999;">January 19th, 2013</p>
+        <p style="font-size: 1em; color: #999;">November 30th, 2013</p>
       </div>
         <h2>Your instructor today</h2>
         <div>
           <img src="assets/angelina-tiny.jpg" width="72" height="72" alt="Angelinapants" />
           <h4>Angelina Fabbro</h4>
-          angelinafabbro [at] gmail.com<br />
-          angelina [at] steamclock.com
+          angelinafabbro [at] mozilla.com<br />
           <br />
           <a href="http://twitter.com/angelinamagnum" target="_blank">@angelinamagnum</a>
         </div>
@@ -95,7 +94,7 @@
       </ul>
       <h3 style="margin-top: 1em;">Homestretch</h3>
       <ul>
-        <li>Debugging in Chrome</li>
+        <li>Debugging in Chrome and Firefox</li>
         <li>Quick intro to jQuery</li>
         <li>SPOILER: Javascript on servers and robots?!</li>
         <li>Where can you go from here?</li>
@@ -113,7 +112,7 @@
     <article class='slide slide-list'>
       <h2>1. Web Browser</h2>
       <p>
-        Choose a modern web browser that has good, built-in development tools to help make building web pages easier.
+        Choose a modern web browser that has good, built-in development tools to help make building web pages easier. Choose Firefox or Chrome! (Today we'll all use Chrome for simplicity)
       </p>
       <div class="centered contains_sidebyside_icons">
         <a href="https://www.google.com/chrome" target="_blank"><img src="assets/new-chrome-logo.png" width="125" height="125" alt="Chrome" /></a>
@@ -121,17 +120,6 @@
         <a href="https://www.google.com/chrome" target="_blank">Google Chrome</a>
       </div>
       <br clear="all" />
-      <br />
-      <br />
-      <br />
-      <p class="sidenote centered">
-        (If you are unable to install Chrome:
-        <br />
-        install
-        <a href="http://www.mozilla.org/en-US/firefox/new/" target="_blank">Firefox</a> <b>and</b>
-        <a href="http://getfirebug.com/" target="_blank">Firebug</a>
-        .)
-      </p>
     </article>
 
     <!-- SLIDE: Code Editor -->
@@ -358,7 +346,7 @@ document.write("Hello, " + name);</pre>
       </p>
       <p>
         <br>
-At any time, someone can <strong>right-click and &quot;view source&quot;</strong> on a web page to see all the JavaScript that went into it.</p>
+At any time, someone can <strong>right-click and &quot;view source&quot; OR CTRL/CMD-U</strong> on a web page to see all the JavaScript that went into it.</p>
 <p class="sidenote">(I suggest that you do this yourself every time you see something you like!)</p>
       </p>
       <br  clear="all" />
@@ -767,7 +755,7 @@ want to write a longer message */
   document.write(**********); //output the address
   */
 </script>
-      </textarea>      
+</textarea>      
 <script type='coder-solution'>
 SCRIPT
   /** SOLUTION **/	
@@ -812,6 +800,7 @@ SCRIPTEND
 <script>
   var tshirtPrice = 25;
   var androidPrice = 10; 
+  document.write(tshirtPrice + androidPrice);
 </script>
 </textarea>
 	  <span class="marker">*</span>
@@ -1383,18 +1372,18 @@ if ( false ) {
 var isSunday = true;
 var isSaturday = false;
 if ( isSunday == true ) {
-  document.write( "#5 Yeah, laundry day! <br />" );
+  document.write( "#3 Yeah, laundry day! <br />" );
 }
 if ( isSaturday == true ) {
-  document.write( "#6 Nope, you can't go back in time! <br />" );
+  document.write( "#4 Nope, you can't go back in time! <br />" );
 }
 
 // Numbers
 if ( 1 &lt; 2 ) {
-  document.write( "#3 workks. <br />" );
+  document.write( "#5 works. <br />" );
 }
-if ( 2 &gt; 1 ) {
-  document.write( "#4 won't work. <br />" );
+if ( 2 &lt; 1 ) {
+  document.write( "#6 won't work. <br />" );
 }
 
 // Strings
@@ -1550,12 +1539,11 @@ if ( salePrice > regularPrice ) {
 Now that we know what <span class="keyword">variables</span>, <span class="keyword">operators</span> and <span class="keyword">conditionals</span> are, let's put them all into action using dynamic content. </p>
       <textarea class='coder-editor coder-editor-full'>
 <script>
-  prompt("How much is that robot?");
-  //var price = prompt("How much are those shoes?");
+  var price = prompt("How much is that robot?");
   if ( price <= 100 ) {
-  document.write("$" + price + " isn't bad. Buy them!");
+  document.write("$" + price + " isn't bad. Buy it!");
   } else {
-  document.write("$" + price + "? Good Lawd! That's a lot of money!");
+  document.write("$" + price + "? Jeez! That's a lot of money!");
   }
 </script></textarea>
     </article>
@@ -1767,7 +1755,7 @@ Now that we know what <span class="keyword">variables</span>, <span class="keywo
     <!-- new slide -->
     <article class='slide slide-subhead'>
       <h1>Lunch time!</h1>
-      <p>Come back for 2:00pm</p>
+      <p>Come back for 1:00pm</p>
     </article>
     
   </div>
