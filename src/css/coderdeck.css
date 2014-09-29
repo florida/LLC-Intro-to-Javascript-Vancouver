@@ -15,7 +15,7 @@ html, body {
   font-weight: 400;
   font-size: 1em;
   padding: 0; /* overriding deck.coder.css */
-  padding-left: 145px; 
+  padding-left: 145px;
 }
 .deck-container h1, .deck-container h2, .deck-container h3 {
 	color: #B1009A;
@@ -32,22 +32,19 @@ html, body {
   width: 940px;
   height: 100%;
   min-height: 600px;
-  border: 3px solid #b1009a;
-  border-radius: 10px;
-  -moz-border-radius: 10px;
   margin: 0 auto;
   padding: 30px 50px 40px 50px;
 }
 
 .deck-container .slide-title {
   font-size: 1em;
-  text-align: center; 
+  text-align: center;
 }
 .deck-container .slide-title .workshop_title {
   margin: 30px 0 0 0;
 }
 .deck-container .slide-title .download_link {
-  font-size: 1.3em; 
+  font-size: 1.3em;
   letter-spacing: 0.05em;
 }
 .deck-container .slide-title .download_link a {
@@ -88,10 +85,10 @@ html, body {
 }
 .deck-container .slide-list h3 {
   font-size: 2em;
-  margin-bottom: .1em; 
+  margin-bottom: .1em;
 }
 .deck-container .slide-list ul, .deck-container .slide-list p {
-  font-size: 1.6em;	
+  font-size: 1.6em;
 }
 .deck-container .slide-list ul {
     margin-left: 1em;
@@ -130,7 +127,7 @@ html, body {
   text-align: center;
   margin: 0px;
   padding: 0px;
-  padding-top: .1em; 
+  padding-top: .1em;
 }
 .deck-container .slide-subhead p {
   font-size: 2em;
@@ -159,55 +156,55 @@ html, body {
   font-size: 1.2em;
 }
 .deck-container code {
-  color: #888; 
+  color: #888;
 }
 .deck-container blockquote {
   font-size: 2em;
   font-style: italic;
   padding: 1em 2em;
   color: #000;
-  border-left: 5px solid #d3502c; 
+  border-left: 5px solid #d3502c;
 }
 .deck-container blockquote p {
-  margin: 0; 
+  margin: 0;
 }
 .deck-container blockquote cite {
   font-size: .5em;
   font-style: normal;
   font-weight: bold;
-  color: #888; 
+  color: #888;
 }
 .deck-container ::-moz-selection, .deck-container ::selection {
   background: #7E006E;
-  color: #fff; 
+  color: #fff;
 }
 .deck-container a, .deck-container a:hover, .deck-container a:focus, .deck-container a:active, .deck-container a:visited {
   color: #444;
-  text-decoration: underline; 
+  text-decoration: underline;
 }
 .deck-container a:hover, .deck-container a:focus {
-  color: #b1009a; 
-  text-decoration: none; 
+  color: #b1009a;
+  text-decoration: none;
 }
 .deck-container .deck-prev-link, .deck-container .deck-next-link {
   background: #d3502c;
-  font-family: serif; 
+  font-family: serif;
 }
 .deck-container .deck-prev-link, .deck-container .deck-prev-link:hover, .deck-container .deck-prev-link:focus, .deck-container .deck-prev-link:active, .deck-container .deck-prev-link:visited, .deck-container .deck-next-link, .deck-container .deck-next-link:hover, .deck-container .deck-next-link:focus, .deck-container .deck-next-link:active, .deck-container .deck-next-link:visited {
-  color: #fff; 
+  color: #fff;
 }
 .deck-container .deck-prev-link:hover, .deck-container .deck-prev-link:focus, .deck-container .deck-next-link:hover, .deck-container .deck-next-link:focus {
   background: #bf0000;
-  text-decoration: none; 
+  text-decoration: none;
 }
 .deck-container .deck-status {
-  font-size: 0.6666em; 
+  font-size: 0.6666em;
 }
 .deck-container.deck-menu .slide {
-  background: #eee; 
+  background: #eee;
 }
 .deck-container.deck-menu .deck-current {
-  background: #ddf; 
+  background: #ddf;
 }
 
 /* Logical Operators table */
@@ -227,7 +224,7 @@ table.comparison-table tr td, table.comparison-table tr th {
 }
 
 .deck-container ol {
-  font-size: 1.6em;	
+  font-size: 1.6em;
 }
 
 .centered {
@@ -235,7 +232,7 @@ table.comparison-table tr td, table.comparison-table tr th {
 }
 
 .sidenote {
-  font-size: 17px !important; 
+  font-size: 17px !important;
     line-height: 18px;
 }
 
@@ -268,7 +265,7 @@ table.comparison-table tr td, table.comparison-table tr th {
 .deck-container .reminders p {
 	font-size: 1em;
 }
-	.deck-container .reminders.single-line p, 
+	.deck-container .reminders.single-line p,
 	.deck-container .hint.single-line p {
 		padding-top: 10px;
 		margin-bottom: 0;
@@ -277,7 +274,7 @@ span.marker {
  	position: absolute;
  	top: 8px;
     right: 15px;
-    font-size: 1.3em;    
+    font-size: 1.3em;
 }
 .assignment {
 	font-weight: 900;
@@ -300,8 +297,17 @@ span.marker {
 
 .var {
 	color: #770088;
-}	
+}
 
 .highlight {
-	background-color: #FF9;
+  background-color: #2b313b;
+  color: #FFF;
+}
+
+.code {
+  font-family: monospace !important;
+  text-transform: uppercase;
+  font-size: 1.5em !important;
+  padding: 10px !important;
+  border-radius: 10px;
 }
