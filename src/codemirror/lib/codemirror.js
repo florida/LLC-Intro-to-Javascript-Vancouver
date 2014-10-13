@@ -103,8 +103,8 @@ var CodeMirror = (function() {
     connect(scroller, "paste", function(){focusInput(); fastPoll();});
     connect(input, "paste", function(){fastPoll();});
     connect(input, "cut", function(){fastPoll();});
-    
-    // IE throws unspecified error in certain cases, when 
+
+    // IE throws unspecified error in certain cases, when
     // trying to access activeElement before onload
     var hasFocus; try { hasFocus = (targetDocument.activeElement == input); } catch(e) { }
     if (hasFocus) setTimeout(onFocus, 20);
@@ -248,7 +248,7 @@ var CodeMirror = (function() {
         }
 
       var start = posFromMouse(e);
-      
+
       switch (e_button(e)) {
       case 3:
         if (gecko && !mac) onContextMenu(e);
@@ -263,7 +263,7 @@ var CodeMirror = (function() {
       if (!start) {if (e_target(e) == scroller) e_preventDefault(e); return;}
 
       if (!focused) onFocus();
-      
+
       var now = +new Date;
       if (lastDoubleClick > now - 400) {
         e_preventDefault(e);
@@ -1255,7 +1255,7 @@ var CodeMirror = (function() {
         prepareInput();
         slowPoll();
       }
-      
+
       if (gecko) {
         e_stop(e);
         var mouseup = connect(window, "mouseup", function() {
@@ -1569,7 +1569,7 @@ var CodeMirror = (function() {
   CodeMirror.defaults = {
     value: "",
     mode: null,
-    theme: "default",
+    theme: "cobalt",
     indentUnit: 2,
     indentWithTabs: false,
     tabMode: "classic",

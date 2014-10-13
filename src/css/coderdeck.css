@@ -300,6 +300,10 @@ span.marker {
 }
 
 .highlight {
+  background-color: #D5D5D5;
+}
+
+.code-highlight {
   background-color: #2b313b;
   color: #FFF;
 }
